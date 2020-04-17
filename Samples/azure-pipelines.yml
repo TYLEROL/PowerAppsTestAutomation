@@ -8,10 +8,10 @@ resources:
       type: github
       # GitHub Repo(e.g. <FORK>/PowerAppsTestAutomation)
       # Recommended to Fork or Duplicate if custom auth flows are required
-      name: microsoft/PowerAppsTestAutomation
-      ref: master
+      name: TYLEROL/PowerAppsTestAutomation
+      ref: dev/tylerol/AugmentLoginOptionsForYAML
       # Name of the GitHub OAuth ADO Service Connection
-      endpoint: <ADO GitHub OAuth Service Connection Name>
+      endpoint: github.com_TYLEROL
 
 parameters:
  - name: image
